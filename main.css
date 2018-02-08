@@ -1,15 +1,27 @@
 * {
-  
+    margin: 0;
+    padding: 0;
 }
 
-.nav {
-  
+body {
+    background-color: #075D75;
+    background: linear-gradient(135deg, #075D75 0%, #075D75 30%, #0C99C2 100%) fixed;
 }
 
-.main {
-  
+.page-container {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
 }
 
-.footer {
-  
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.nav {}
+
+.main {}
+
+.footer {}
