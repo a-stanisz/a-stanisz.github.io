@@ -1,27 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #075D75;
-    background: linear-gradient(135deg, #075D75 0%, #075D75 30%, #0C99C2 100%) fixed;
+  background-color: #075d75;
+  background: linear-gradient(135deg, #075d75 0%, #075d75 30%, #0c99c2 100%)
+    fixed;
 }
 
 .page-container {
-    width: 100%;
-    height: 100%;
-    overflow: visible;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
 
 .page-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.nav {}
+.card {
+  min-width: 380px;
+  place-items: center;
+  background: rgba(39, 183, 43, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(39, 183, 43, 0.28);
+}
 
-.main {}
+.nav {
+}
 
-.footer {}
+.main {
+}
+
+.footer {
+}
