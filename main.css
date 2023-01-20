@@ -1,19 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 html body {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-.main-container {
+  /* background-color: rgb(0, 0, 0); */
+  color: #f5f5f5;
   display: flex;
   flex-direction: column;
-  position: relative;
-  min-height: 100vh;
-  overflow-x: hidden;
+  align-items: center;
+  width: 100vw;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffbe10;
+  /* fixed; */
+}
+
+header {
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+/* .main-share-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+} */
+
+.container {
+  width: 91%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* position: relative; */
+  /* min-height: 100vh; */
+  /* overflow-x: hidden; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* background: linear-gradient(135deg, #0fbf99 0%, #0d5ea1 30%, #892177 100%)
+    fixed; */
+}
+
+.tile {
   width: 100%;
+  margin: 7px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 56px;
+  /* align-items: center; */
+  /* font-family: sans-serif; */
+  /* text-decoration: none; */
+  background-color: #612fb8;
+  color: #f5f5f5;
+  /* background: linear-gradient(225deg, #892177 0%, #0fbf99 100%); */
+  /* color: rgb(37, 37, 37); */
+  /* background-color: #0d90a1; */
+}
+
+.tile:hover {
+  transform: scale(1.02);
+  transition: cubic-bezier(0.07, 1.41, 0.82, 1.41);
+}
+
+.main-share-btn {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  fill: #252525;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.main-share-btn svg {
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.main-share-btn:hover {
+  background-color: #252525;
+  fill: #f5f5f5;
+}
+
+.tile-share-btn {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  fill: #252525;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.tile-share-btn svg {
+  /* margin-left: 12px; */
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.tile:hover .tile-share-btn {
+  visibility: visible;
+}
+
+.image-container {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  overflow: hidden;
+}
+
+.image-container img {
   height: 100%;
-  background: linear-gradient(135deg, #0fbf99 0%, #0d5ea1 30%, #892177 100%)
-    fixed;
+}
+
+.icon {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+a svg {
+  color: #f5f5f5;
+}
+
+a:hover {
+  fill: #0a0a0a;
 }
 
 .main-column {
@@ -28,8 +153,8 @@ html body {
 }
 
 .headline {
-  color: white;
-  font-family: monospace;
+  /* color: white; */
+  /* font-family: monospace; */
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -37,28 +162,35 @@ html body {
 }
 
 .lead {
-  display: flex;
-  flex-direction: column;
-  color: rgba(255, 255, 255, 0.898);
-  font-family: monospace;
+  /* display: flex;
+  flex-direction: column; */
+  /* color: rgba(255, 255, 255, 0.898); */
+  /* font-family: monospace; */
   font-size: 120%;
   margin: 0 auto;
   padding: 20px;
 }
 
 li {
-  list-style-type: "- ";
-  padding-top: 4px;
+  list-style-type: '- ';
+  padding: 5px 8px;
+  background-color: #1b2d3924;
+  margin: 5px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .entry-box {
-  display: flex;
+  /* display: flex; */
   min-height: 56px;
   justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: rgb(37, 37, 37);
+  /* align-items: center; */
+  /* font-family: sans-serif; */
+  /* text-decoration: none; */
+  /* color: rgb(37, 37, 37); */
   background: linear-gradient(
     230deg,
     rgba(255, 255, 255, 0.3),
@@ -68,10 +200,12 @@ li {
 }
 
 a {
-  display: block;
-  text-align: center;
+  /* display: block; */
+  /* text-align: center; */
+  text-decoration: none;
+  /* color: rgb(37, 37, 37); */
 }
 
 a:hover {
-  background: whitesmoke;
+  background: #c92c55;
 }
