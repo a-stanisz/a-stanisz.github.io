@@ -1,0 +1,125 @@
+[
+  {
+    "paletteName": "Primary",
+    "swatches": [
+      {
+        "name": "900",
+        "color": "63071F"
+      },
+      {
+        "name": "800",
+        "color": "760B27"
+      },
+      {
+        "name": "700",
+        "color": "891130"
+      },
+      {
+        "name": "600",
+        "color": "9B183A"
+      },
+      {
+        "name": "500",
+        "color": "AE2247"
+      },
+      {
+        "name": "400",
+        "color": "C03056"
+      },
+      {
+        "name": "300",
+        "color": "D34469"
+      },
+      {
+        "name": "200",
+        "color": "E66688"
+      },
+      {
+        "name": "100",
+        "color": "F893AD"
+      }
+    ]
+  },
+  {
+    "paletteName": "Neutral",
+    "swatches": [
+      {
+        "name": "900",
+        "color": "0C1820"
+      },
+      {
+        "name": "800",
+        "color": "12222D"
+      },
+      {
+        "name": "700",
+        "color": "1B313F"
+      },
+      {
+        "name": "600",
+        "color": "274356"
+      },
+      {
+        "name": "500",
+        "color": "385A71"
+      },
+      {
+        "name": "400",
+        "color": "476E88"
+      },
+      {
+        "name": "300",
+        "color": "59819B"
+      },
+      {
+        "name": "200",
+        "color": "6E94AD"
+      },
+      {
+        "name": "100",
+        "color": "89A6BA"
+      }
+    ]
+  },
+  {
+    "paletteName": "Secondary",
+    "swatches": [
+      {
+        "name": "900",
+        "color": "8C5009"
+      },
+      {
+        "name": "800",
+        "color": "9A5A0B"
+      },
+      {
+        "name": "700",
+        "color": "A9640F"
+      },
+      {
+        "name": "600",
+        "color": "B76F14"
+      },
+      {
+        "name": "500",
+        "color": "C57B1A"
+      },
+      {
+        "name": "400",
+        "color": "D48621"
+      },
+      {
+        "name": "300",
+        "color": "E2942B"
+      },
+      {
+        "name": "200",
+        "color": "F1A43B"
+      },
+      {
+        "name": "100",
+        "color": "FFB652"
+      }
+    ]
+  }
+]
