@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006 --no-open",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "delete-node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.2",
@@ -20,22 +21,22 @@
     "next": "13.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook-addon-next": "^1.8.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.8",
-    "@storybook/addon-interactions": "^7.0.8",
-    "@storybook/addon-links": "^7.0.8",
+    "@storybook/addon-essentials": "^7.0.9",
+    "@storybook/addon-interactions": "^7.0.9",
+    "@storybook/addon-links": "^7.0.9",
+    "@storybook/addon-mdx-gfm": "^7.0.9",
     "@storybook/addon-styling": "^1.0.6",
-    "@storybook/blocks": "^7.0.8",
-    "@storybook/nextjs": "^7.0.8",
-    "@storybook/react": "^7.0.8",
-    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/blocks": "^7.0.9",
+    "@storybook/nextjs": "^7.0.9",
+    "@storybook/react": "^7.0.9",
+    "@storybook/testing-library": "^0.1.0",
     "autoprefixer": "10.4.14",
     "eslint-plugin-storybook": "^0.6.12",
     "postcss": "8.4.23",
-    "storybook": "^7.0.8"
+    "storybook": "^7.0.9"
   }
 }
